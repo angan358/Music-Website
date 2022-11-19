@@ -1,0 +1,60 @@
+:root {
+    --purple500: #281154;
+    --purple300: #270082;
+    --purple600: #1b0058;
+    --red500: #dc0000;
+    --body: #f9f6ff;
+}
+
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #f9f6ff;
+}
+
+/* navigation section */
+
+header {
+    background-color: var(--purple300);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+}
