@@ -39,6 +39,10 @@ a {
 
 header {
     background-color: var(--purple300);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav {
@@ -57,4 +61,146 @@ nav ul {
 .logo {
     font-size: 32px;
     font-weight: 600;
+}
+
+nav ul li {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid white;
+    transition: 0.2s ease-in;
+}
+
+/* hero section */
+
+.hero-section {
+    background-image: url(/images/hero_image.png);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+
+.hero-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-section h1 {
+    font-size: 96px;
+
+}
+
+.hero-section h3 {
+    font-size: 32px;
+}
+
+/* Music section */
+
+.music-section {
+    padding-top: 50px;
+    background-color: var(--purple500);
+}
+
+.music-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ipad-iphone-img {
+    position: relative;
+    top: 400px;
+    margin-top: -400px;
+}
+
+/* global button design */
+button {
+    padding: 10px 15px;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+
+}
+
+.primary-btn {
+    background-color: var(--red500);
+    color: white;
+}
+
+
+.secondary-btn {
+    background-color: var(--purple300);
+    color: white;
+    align-self: flex-start;
+}
+
+/* about-music section */
+
+
+.about-music {
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* video-section */
+.video-section {
+    background-image: url(/images/video.png);
+    min-height: 800px;
+    display: grid;
+    place-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+.video-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* margin-top: -50px; */
+}
+
+.video-section .container h3 {
+    font-size: 30px;
+}
+
+
+/* to stop the repetition of the image */
+
+.hero-section,
+.video-section {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* gift-card section */
+.gift-section {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+}
+
+.gift-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
