@@ -76,7 +76,7 @@ nav ul li:hover {
 /* hero section */
 
 .hero-section {
-    background-image: url(/images/hero_image-min.png);
+    background-image: url(../images/hero_image-min.png);
     height: 100vh;
     display: grid;
     color: white;
@@ -159,7 +159,7 @@ button:hover {
 
 /* video-section */
 .video-section {
-    background-image: url(/images/video-min.png);
+    background-image: url(../images/video-min.png);
     min-height: 800px;
     display: grid;
     place-items: center;
