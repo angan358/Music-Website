@@ -1,6 +1,6 @@
 :root {
     --purple500: #281154;
-    --purple300: #571dba;
+    --purple300: #5a0ddf;
     --purple600: #1b0058;
     --red500: #dc0000;
     --body: #f9f6ff;
@@ -148,6 +148,7 @@ button:hover {
     background-color: var(--purple300);
     color: white;
     align-self: flex-start;
+    border-radius: 8px;
 }
 
 /* about-music section */
@@ -225,6 +226,7 @@ button:hover {
     background-color: var(--purple600);
     color: white;
     padding: 20px;
+    transition: 0.3s ease-in;
 }
 
 .footer-upper .container {
@@ -237,6 +239,13 @@ button:hover {
     padding-bottom: 10px;
     border-bottom: 2px solid white;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.footer-upper h3:hover {
+    border-bottom: 2px solid transparent;
+    transition: 0.2s ease-in-out;
+
 }
 
 
