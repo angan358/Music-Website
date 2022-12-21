@@ -139,13 +139,16 @@ button:hover {
 }
 
 .primary-btn {
-    background-color: var(--red500);
+    /* background-color: var(--red500); */
+    background-color: orangered;
+    border-radius: 15px;
     color: white;
 }
 
 
 .secondary-btn {
-    background-color: var(--purple300);
+    /* background-color: var(--purple300); */
+    background-color: orangered;
     color: white;
     align-self: flex-start;
     border-radius: 8px;
